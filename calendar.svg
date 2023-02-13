@@ -4,7 +4,7 @@ viewBox="0 0 512 512">
 <script type="text/ecmascript"><![CDATA[
 function init() {
   var time = new Date();
-  var locale = "en-gb";
+  var locale = "en-us";
 
   var DD   = time.getDate();
   var DDD  = time.toLocaleString(locale, {weekday: "long" });
